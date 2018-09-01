@@ -114,7 +114,7 @@ public class Assignnment_posist {
 
 		    	char newchar=(char) ((int)node_n.password.charAt(i) + 2);
 
-		        n.password=n.password.substring(0,i)+newchar+node_n.password.substring(i+1); 
+		        node_n.password=node_n.password.substring(0,i)+newchar+node_n.password.substring(i+1); 
 
 		    }
 
